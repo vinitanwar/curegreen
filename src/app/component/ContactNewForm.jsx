@@ -74,7 +74,7 @@ export default function ContactNewForm({ service = "" }) {
       alert('Please complete the CAPTCHA');
       return;
     }
-    // const url = "https://sendingmail-2.onrender.com/sendmail";
+   
     const url = "https://curegreenotp2.onrender.com/sendmail";
 
     const isValid = validateFields();
@@ -93,8 +93,8 @@ export default function ContactNewForm({ service = "" }) {
           S_phone: phone,
           message: message,
           S_services: service || "",
-          userEmailsir: "infocuregreen@gmail.com"
-          // userEmailsir: "jontypundir12@gmail.com",
+          // userEmailsir: "infocuregreen@gmail.com"
+          userEmailsir: "jontypundir12@gmail.com",
         },
         { timeout: 8000 }
       );

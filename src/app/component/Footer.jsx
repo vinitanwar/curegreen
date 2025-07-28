@@ -1,10 +1,10 @@
-import React from "react";
+  import React from "react";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook, FaGlassCheers } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import Link from "next/link";
-import { IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward,IoMdCall } from "react-icons/io";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import { BiSolidPhoneCall } from "react-icons/bi";
@@ -12,6 +12,7 @@ import { MdEmail } from "react-icons/md";
 import { slugify } from "../slugify";
 import { freeProducts } from "../freePoructData";
 import { products } from "../productData";
+
 export default function Footer() {
   const info = [
     { title: "Shipping Times" },
@@ -239,6 +240,13 @@ c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"
           </div>
         </div>
       </div>
+
+    <Link href="tel:0475237850"
+  aria-label="Call us now"
+  title="Call 0426 722 199" className=" z-50 md:hidden fixed bottom-0 left-0 w-full py-3 bg-green-600 flex justify-center items-center">
+
+<IoMdCall className="text-4xl text-white" />
+    </Link>
     </div>
   );
 }

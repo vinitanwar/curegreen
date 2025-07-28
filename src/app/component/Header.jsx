@@ -130,7 +130,7 @@ export default function Header() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="bg-[#3F83C0] cursor-pointer group  px-6 sm:px-8 py-3 text-white font-semibold text-xs sm:text-sm relative overflow-hidden inline-flex items-center "
+            className= "hidden md:inline-flex bg-[#3F83C0] cursor-pointer group  px-6 sm:px-8 py-3 text-white font-semibold text-xs sm:text-sm relative overflow-hidden  items-center "
           >
             <span className="w-8 bg-[#0f2c49] group-hover:w-full group-hover:right-0 duration-300 transition-all skew-x-[-22deg] absolute inset-y-0 -right-4 opacity-40 group-hover:opacity-100 group-hover:skew-0"></span>
             <span className="relative z-10">
