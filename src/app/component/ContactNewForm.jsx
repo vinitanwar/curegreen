@@ -93,8 +93,8 @@ export default function ContactNewForm({ service = "" }) {
           S_phone: phone,
           message: message,
           S_services: service || "",
-          // userEmailsir: "infocuregreen@gmail.com"
-          userEmailsir: "jontypundir12@gmail.com",
+          userEmailsir: "infocuregreen@gmail.com"
+          // userEmailsir: "jontypundir12@gmail.com",
         },
         { timeout: 8000 }
       );
